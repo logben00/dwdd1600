@@ -1,0 +1,130 @@
+/*---Header---*/
+
+header {
+    font-style: bold;
+    background-color: #2978a6;
+    padding: 1rem 3vw;
+}
+header h1 {
+    letter-spacing: 1px;
+    margin: 0;
+    color:#ffffff;
+}
+header p {
+    margin: 0;
+    font-size: 25px;
+    color:#ffffff;
+    letter-spacing: 1.2px;
+}
+
+/*---Nav---*/
+
+nav {
+   background-color: #c4e7ff;
+        
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color:#2f718b;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color:#697980; 
+    color:#F6EAFF;
+}
+nav a:hover {
+    color: #fff;
+}
+
+/*---Main---*/
+
+body {
+    font-family: "Madimi One", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+
+}
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color:#5082a1;
+    padding: .1rem;
+    margin-bottom: .1rem;
+    
+}
+main h2 {
+    color:#697980;
+    margin-bottom: .2rem;
+    
+}
+main p {
+    color:black;
+    margin: 0 0 .3rem 0;
+}
+main h3 {
+    background-color:#ffffff;
+    color:rgb(71, 97, 122);
+    padding: .1rem;
+}
+main ol {
+    padding: .2rem 3vw;
+    margin-top: .3rem;
+    line-height: 170%;
+    list-style-type: square;
+}
+main dl dt {
+    color: #317c9f;
+    font-weight: 700
+}
+main dl dd { 
+    color:#000000;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: disc;
+    
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+}
+main address {
+    font-style: normal;
+    background-color: #ffffff;
+    padding: .5rem;
+    width: 14.25rem;
+    border: 1px solid #57829d;
+    border-radius: .2rem;
+}
+main a {
+    color:#478594;
+} 
+main a:hover{
+    color:#91d2fb;
+    
+}
+
+/*---Footer---*/
+
+footer {
+    background-color: #5fa1b5;
+    text-align: center;
+    color: #ffffff;
+    padding: .1rem;
+    font-size: .95rem;
+}
+footer a{
+    color:#ffffff;
+}
