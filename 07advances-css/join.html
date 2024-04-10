@@ -1,0 +1,98 @@
+<!doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="author" content="Chris Hall">
+            <meta name="description" content="Permanent Jewelry">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Royal Treasures: Home</title>
+        <link rel="stylesheet" href="./traveler.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+            
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">    
+        </head>
+        
+        <body>
+            
+            <!-- start the page header -->
+            
+            <header>
+                <h1>Snowboarding is Cool</h1>
+                <p>Shredding the Gnar</p>
+            </header>
+            
+            <!-- start the page navigation -->
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="athletes.html">Athletes</a></li>
+                    <li class="active"><a href="join.html">Join Today</a></li>
+                </ul>
+            </nav>
+
+            <!-- start the page main -->    
+                
+            <main>
+                <h1>New Customer</h1>
+                <form method="get" class="myform" action="thanks.html">
+                <fieldset>
+                <legend>Customer Information</legend>    
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label> 
+                <label>Cell phone* <input type="tel" name="phone" required placeholder="000-000-0000"></label> 
+                <label>Email* <input type="email" name="email" required placeholder="example@email.com"></label>   
+                </fieldset> 
+                
+                <fieldset>
+                 <legend>Winter Sport Interest</legend>   
+                    <label><input type="radio" name="sport" value="snowboarding">Snowboarding</label>  
+                    <label><input type="radio" name="sport" value="skiing">Skiing</label> 
+                    <label><input type="radio" name="sport" value="skating">Skating</label>
+                </fieldset>    
+                <fieldset>
+                 <legend>Brand Interest</legend>   
+                  <label><input type="checkbox" name="burton" value="chosen">Burton</label>
+                  <label><input type="checkbox" name="nitro" value="chosen">Nitro</label>  
+                  <label><input type="checkbox" name="jones" value="chosen">Jones</label>
+                  <label><input type="checkbox" name="salomon" value="chosen">Salomon</label>  
+                    <label>Board Type
+                    <select name="board">
+                    <option value="none">Please Select</option>
+                    <option value="normal">Normal</option> 
+                    <option value="powder">Powder Board</option>
+                    <option value="split">Split Board</option>
+                    </select>
+                    </label>
+                </fieldset>  
+                  <label>Comments
+                    <textarea name="comments"></textarea>
+                    </label>  
+
+
+                    <input type="submit" value="Send Request">
+                </form>
+               
+            </main>   
+                
+            <!-- start of page footer -->
+            
+            <footer>
+        
+                <p>&copy; 2024 | Logan Bennett &bull; Email Here</p>
+            
+            </footer>
+            
+                
+                
+        </body>
+
+
+
+
+    </html>
